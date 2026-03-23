@@ -18,11 +18,11 @@ def chat():
     prompt = request.form.get("chat")
     
 
-    endpoint = ""
+    endpoint = "https://ai-chiraglearningpy-6215.openai.azure.com/"
     model_name = "gpt-4o"
     deployment = "gpt-4o"
 
-    subscription_key = ""
+    subscription_key = "6ADBMDgl9surD4Bl0cEbBkU7qdNJtXmcAfDQ7X2zwXgZ9pyltTHnJQQJ99CCACYeBjFXJ3w3AAAAACOGQMJt"
     api_version = "2024-12-01-preview"
 
     client = AzureOpenAI(
